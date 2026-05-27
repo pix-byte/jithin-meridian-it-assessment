@@ -40,9 +40,9 @@
 `GET https://ca-seassessment-api-dev.happywater-190f264d.northcentralus.azurecontainerapps.io/api/v1/private-key`        
 
 ## Python Script Files
-> fetch.py
-> decryption.py
-> layer3
+> fetch.py      
+> decryption.py       
+> layer3.py     
 
 
 
