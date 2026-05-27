@@ -12,5 +12,39 @@
 }
 ```
 
+## Checking Submission Types
+**Request :**     
+`POST https://ca-seassessment-api-dev.happywater-190f264d.northcentralus.azurecontainerapps.io/api/v1/submit`
+<br>
+**Response :**    
+```json
+{
+    "error": "Invalid submission type",
+    "valid_types": [
+        "content_hash",
+        "decrypted_hash",
+        "analysis",
+        "repo",
+        "transcript",
+        "algorithm_answer"
+    ]
+}
+```
+
+## Checking Dataset
+**Request :**     
+`GET https://ca-seassessment-api-dev.happywater-190f264d.northcentralus.azurecontainerapps.io/api/v1/dataset`        
+
+## Checking Decryption Key
+**Request :**     
+`GET https://ca-seassessment-api-dev.happywater-190f264d.northcentralus.azurecontainerapps.io/api/v1/private-key`        
+
+## Python Script Files
+> fetch.py
+> decryption.py
+> layer3
+
+
+
 
 
